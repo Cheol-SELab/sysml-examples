@@ -1,4 +1,4 @@
-package '8-Requirements2' {
+package '8-한글ㅇ' {
    package 'Vehicle Definitions' {
       part def Vehicle {
          attribute mass: MassValue;
