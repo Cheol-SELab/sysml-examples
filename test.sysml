@@ -1,9 +1,7 @@
-package '8-한글ㅇ' {
-   package 'Vehicle Definitions' {
-      part def Vehicle {
-         attribute mass: MassValue;
-         attribute fuelLevel: Real;
-         attribute fuelTankCapacity: Real;
-       }
-   }
+private import ISQ::*; 
+package 'Vehicle Definitions' {
+   part def Vehicle {
+      attribute mass:>ISQ::mass;
+      attribute electricalPower:>ISQ::power;
+      }
 }
